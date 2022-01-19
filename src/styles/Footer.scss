@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    clip-path: polygon(0 0,100% 0,100% 54%,82% 100%,55% 71%,17% 100%,0 58%);
+}
+
+.titles {
+    color: white;
+}
+
+.px-3 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+}
+
+.socials {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.p-face {
+    color: white;
+    font-weight: 500;
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.p-insta {
+    color: white;
+    font-weight: 500;
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.sponsors {
+    grid-area: sponsors;
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
