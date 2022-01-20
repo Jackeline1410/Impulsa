@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FormUser from '../components/FormUser';
+import FormCompany3 from '../components/FormCompany3';
 
-const Register = () => {
+const RegisterCompany3 = () => {
     return(
         <div>
             <Header />
-            <FormUser />
+                <h1>Registro de emprendimientos</h1>
+                <FormCompany3 />
             <Footer />
         </div>
     );
 }
 
-export default Register;
+export default RegisterCompany3;

@@ -53,15 +53,15 @@ const Home = () => {
                             <img className="loading" src={loading} alt="loading" />
                         </Col>
                     </Row>
-                    <Row>
+                    
 
                         <Link to="/register">
-                            <Button>
-                            <input type="submit" value="UNIRME" className="primary-button add-botton"></input>
-                            </Button>
+    
+                            <input value="UNIRME" className="primary-button login-button"></input>
+                        
                         </Link>
                            
-                    </Row>
+            
 
 
                 </Container>
@@ -74,13 +74,11 @@ const Home = () => {
                     <Row><h3>ID3CO</h3></Row>
                     <Row><img src={entrepreneurMain} alt="entrepreneur main" /></Row>
 
-                    <Row>
+                    
                         <Link to="/emprendimiento">
-                            <Button>
-                            <button type="submit" value="CONOCE MAS" className="primary-button add-botton"></button>
-                            </Button>
+                            <input value="CONOCE MAS" className="primary-button login-button"></input>
                         </Link>
-                    </Row>
+                    
 
                 </Container>
                     
