@@ -32,16 +32,17 @@
   text-align: center;
   margin-top: 15px;
   justify-content: space-between;
-
 }
 
-.p {
+.header-link-hover {
   color: white;
+  text-decoration: inherit;
 }
 
-.p:hover {
+.header-link-hover:hover {
   background-color: transparent;
   font-size: 120%;
+  color: rgb(156, 40, 147);
 }
 
 .navbar-right {
@@ -57,6 +58,7 @@
   margin-right: 5px;
   justify-content: space-between;
 }
+
 
 .themeColor {
   margin-left: 5px;

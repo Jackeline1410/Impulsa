@@ -23,23 +23,27 @@ const Header = () => {
 
                 <Col md={6}>
                     <div className="navbar-center">
-                        <Link to="/about"><p className="p">Quienes somos</p></Link>
-                        <Link to="/emprendimiento"><p className="p">Emprendimiento Destacado</p></Link>
-                        <Link to="/#categoryContainer"><p className="p">Categorías</p></Link>
-                        <Link to="/promotions"><p className="p">Promo</p></Link>
-                        <Link to="/contactUs"><p className="p">Contacto</p></Link>
+                        <Link className="header-link-hover" to="/about">Quienes somos</Link>
+                        <Link className="header-link-hover" to="/emprendimiento">Emprendimiento Destacado</Link>
+                        <Link className="header-link-hover" to="/#categoryContainer">Categorías</Link>
+                        <Link className="header-link-hover" to="/promotions">Promo</Link>
+                        <Link className="header-link-hover" to="/contactUs">Contacto</Link>
                     </div>
                 </Col>
 
-                <Col>
+                <div className="navbar-right">
+                    <Col>
                         <Link to="/login">
-                        <div className="navbar-right">
-                        <img className="loginStart" src={loginStart} alt="login start" />
-                        </div>
+                            <img className="loginStart" src={loginStart} />
                         </Link>
+                    </Col>  
+                    <Col>
                         <img src={themeColor} alt="color theme" />
+                    </Col>
+                    <Col>
                         <img src={quiclySearch} alt="quickly search" />
-                </Col>
+                    </Col>              
+                </div>
             </Row>
         </Container>
     

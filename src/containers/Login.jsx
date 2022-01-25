@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import {Row, Col } from 'react-grid';
@@ -20,8 +21,16 @@ const Login = () => {
                 <input type="password" id="new-password" placeholder="Contraseña" className="input input-password" />
 
                 <Row>
-                    <Col><p>Olvidaste tu contraseña?</p></Col>
-                    <Col>Registrarse</Col>
+                    <Col>
+                        <Link className="link-recoverypassword" to="/recovery-password" >
+                            Olvidaste tu contraseña?
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="link-register" to="/register" >
+                            Registrarse
+                        </Link>
+                    </Col>
                 </Row>
 
                 <input type="submit" value="Confirm" className="primary-button login-button" />

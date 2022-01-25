@@ -1,0 +1,59 @@
+.mainContainer {
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0px;
+        padding: 30px 0px;
+}
+
+.title {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #3bb3c3;
+    font-size: 47.2px;
+    font-family: "Alegreya Sans",sans-serif;
+    font-weight: 800;
+}
+
+.subtitle {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.logoid3co {
+    vertical-align: middle;
+    width: 200px;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "News Cycle",sans-serif;
+}
+
+.data {
+    color:#3bb3c3;
+    align-items: center;
+    text-align: center;
+}
+
+.location {
+    width: 10%;
+    text-align: center;
+}
+
+.flecha {
+    width: 10%;
+    text-align: center;
+}
+
+.row {
+    justify-content: space-between;
+}
