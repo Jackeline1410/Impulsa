@@ -8,7 +8,7 @@ import '../styles/Login.scss';
 const Login = () => {
     return(
         <div className="login">
-            <Header />,
+            <Header />
             <div className="form-container">
             
                 <h1 className="title">Iniciar Sesión</h1>
@@ -33,8 +33,14 @@ const Login = () => {
                     </Col>
                 </Row>
 
-                <input type="submit" value="Confirm" className="primary-button login-button" />
+                <Row>
+                    <Col>
+                    <button className="primary-button">CONFIRM</button>
+                    </Col>
+                </Row>
                 </form>
+
+                
             </div>
             <Footer />
         </div>

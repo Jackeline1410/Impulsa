@@ -18,11 +18,23 @@
 .subtitle {
     color: #000;
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    
+}
+
+.logoemprendimiento {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
 }
 
 .logoid3co {
-    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
     width: 200px;
 }
 
@@ -40,8 +52,15 @@
 
 .data {
     color:#3bb3c3;
-    align-items: center;
-    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-flexbox;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "News Cycle",sans-serif;
 }
 
 .location {
@@ -55,5 +74,6 @@
 }
 
 .row {
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }

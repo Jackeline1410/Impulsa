@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col } from 'react-grid';
 import '../styles/Header.scss';
 
@@ -9,6 +9,7 @@ import quiclySearch from '@icons/Vector (11).svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
+
     return(    
         <Container className="image-container">
             <Container fluid />
@@ -34,7 +35,7 @@ const Header = () => {
                 <div className="navbar-right">
                     <Col>
                         <Link to="/login">
-                            <img className="loginStart" src={loginStart} />
+                            <img className="loginStart" src={loginStart} alt="loginStart"/>
                         </Link>
                     </Col>  
                     <Col>

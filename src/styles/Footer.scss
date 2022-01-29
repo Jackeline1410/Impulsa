@@ -3,6 +3,7 @@
     height: 200px;
     background: #000;
     clip-path: polygon(0 0,100% 0,100% 54%,82% 100%,55% 71%,17% 100%,0 58%);
+    offset-rotate: inherit;
 }
 
 .titles {
@@ -59,3 +60,4 @@
     justify-content: space-between;
     padding-top: 0.5rem;
 }
+

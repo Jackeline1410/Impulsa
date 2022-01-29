@@ -54,15 +54,8 @@
       font-size: var(--md);
       font-weight: bold;
       height: 50px;
-    }
-.login-button {
-      margin-top: 14px;
-      margin-bottom: 30px;
-    }
-    @media (max-width: 640px) {
-      .logo {
-        display: block;
-      }
+      justify-content: center;
+      align-items: center;
     }
 
 .link-recoverypassword {
