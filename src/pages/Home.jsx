@@ -49,9 +49,12 @@ const Home = () => {
                         </Col>
                     </Row>
         
+                    
+                    <div>
                         <Link to="/register">
                             <button  className="primary-button" >UNIRME</button>  
                         </Link>
+                    </div>
                            
                 </Container>
 
@@ -63,24 +66,20 @@ const Home = () => {
                     <Row className="container">
                         <img className="imageid3co" src={entrepreneurMain} alt="entrepreneur main" />
                         <div className="overlay">
-                        <div className="text">
-                            <Row className="row-overlay">
-                                <Col>
-                                    <img className="logoid3co" src={logoid3co} alt="logo id3co" />
-                                </Col>
-                                <Col>
-                                    Hola somos id3co, nos dedicamos a elaborar productos que darán un toque de estilo y creatividad a los espacios de tu hogar, como homme-office, rincón green, rincón de lectura y espacios infantiles...
-                                    <br></br>
-                                    <img src={iconyoutube} alt="iconyoutube" />
-                                    <span>Youtube</span>
-                                </Col>
-                                    <p>Conéctate en nuestro en vivo para que conozcas tips de decoración <strong>www.youtube.com/id3co</strong></p>
-                                
-                            </Row>                        
-                                
-                            
-                            
-                        </div>
+                            <div className="text">
+                                <Row className="row-overlay">
+                                    <Col>
+                                        <img className="logoid3co" src={logoid3co} alt="logo id3co" />
+                                    </Col>
+                                    <Col>
+                                        Hola somos id3co, nos dedicamos a elaborar productos que darán un toque de estilo y creatividad a los espacios de tu hogar, como homme-office, rincón green, rincón de lectura y espacios infantiles...
+                                        <br></br>
+                                        <img src={iconyoutube} alt="iconyoutube" />
+                                        <span>Youtube</span>
+                                    </Col>
+                                        <p>Conéctate en nuestro en vivo para que conozcas tips de decoración <strong>www.youtube.com/id3co</strong></p>
+                                </Row>                        
+                            </div>
                         </div>
                     </Row>
 
@@ -95,140 +94,142 @@ const Home = () => {
                     <Row className="title">Categorias</Row>
                     <Row className="categoryDescription">A continuación encontrarás las categorías de los emprendimientos disponibles</Row>
 
-
                     <Row>
+                        <div className="sponsors">
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category1">
+                                        <img className="imageCategory" src={categorie1} alt="categoria 1"/>
+                                        <h4 className="centered">Accesorios y Joyería</h4>
+                                    </Link>
+                                </div>
+                            </Col>
                         
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category1">
-                                    <img className="imageCategory" src={categorie1} alt="categoria 1"/>
-                                    <h4 className="centered">Accesorios y Joyería</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category2">
+                                        <img className="imageCategory" src={categorie2} alt="categoria 2" />
+                                        <h4 className="centered">Salud y Belleza</h4>
+                                    </Link>
+                                </div>
+                            </Col>
                         
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category3">
+                                        <img className="imageCategory" src={categorie3} alt="categoria 3" />
+                                        <h4 className="centered">Detalles y Decoración</h4>
+                                    </Link>
+                                </div>
+                            </Col>
+                        
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category4">
+                                        <img className="imageCategory" src={categorie4} alt="categoria 4" />
+                                        <h4 className="centered">Educación</h4>
+                                    </Link>
+                                </div>
+                            </Col>
+                            
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category5">
+                                        <img className="imageCategory" src={categorie5} alt="categoria 5" />
+                                        <h4 className="centered">Energía y Minería</h4>
+                                    </Link>
+                                </div>
+                            </Col>
+                        
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category6">
+                                        <img className="imageCategory" src={categorie6} alt="categoria 6" />
+                                        <h4 className="centered">Fabricación de Textiles y Calzado</h4>
+                                    </Link>
+                                </div>
+                            </Col>
+                       
+                            
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category7">
+                                        <img className="imageCategory7" src={categorie7} alt="categoria 7" />
+                                        <h4 className="centered">Infraestructura y Construcción</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory"> 
-                                <Link to="/category2">
-                                    <img className="imageCategory" src={categorie2} alt="categoria 2" />
-                                    <h4 className="centered">Salud y Belleza</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
-                        <Col md={2}>
-                            <div className="containerCategory"> 
-                                <Link to="/category3">
-                                    <img className="imageCategory" src={categorie3} alt="categoria 3" />
-                                    <h4 className="centered">Detalles y Decoración</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category4">
-                                    <img className="imageCategory" src={categorie4} alt="categoria 4" />
-                                    <h4 className="centered">Educación</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category5">
-                                    <img className="imageCategory" src={categorie5} alt="categoria 5" />
-                                    <h4 className="centered">Energía y Minería</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
-                        <Col md={2}>
-                            <div className="containerCategory"> 
-                                <Link to="/category6">
-                                    <img className="imageCategory" src={categorie6} alt="categoria 6" />
-                                    <h4 className="centered">Fabricación de Textiles y Calzado</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
-                        <Col md={2}>
-                            <div className="containerCategory"> 
-                                <Link to="/category7">
-                                    <img className="imageCategory" src={categorie7} alt="categoria 7" />
-                                    <h4 className="centered">Infraestructura</h4>
-                                </Link>
-                            </div>
-                        </Col>
-
+                        </div>
                     </Row>
             
 
                     <Row>
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category8">
-                                    <img className="imageCategory" src={categorie1} alt="categoria 8"/>
-                                    <h4 className="centered">Muebles y Hogar</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                        <div className="sponsors">
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category8">
+                                        <img className="imageCategory" src={categorie1} alt="categoria 8"/>
+                                        <h4 className="centered">Muebles y Hogar</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category9">
-                                    <img className="imageCategory" src={categorie2} alt="categoria 9" />
-                                    <h4 className="centered">Moda y Vestuario</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category9">
+                                        <img className="imageCategory" src={categorie2} alt="categoria 9" />
+                                        <h4 className="centered">Moda y Vestuario</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category10">
-                                    <img className="imageCategory" src={categorie3} alt="categoria 10" />
-                                    <h4 className="centered">Restaurantes y Alimentación</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category10">
+                                        <img className="imageCategory" src={categorie3} alt="categoria 10" />
+                                        <h4 className="centered">Restaurantes y Alimentación</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category11">
-                                    <img className="imageCategory" src={categorie4} alt="categoria 11" />
-                                    <h4 className="centered">Servicios Profesionales o Técnicos</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category11">
+                                        <img className="imageCategory" src={categorie4} alt="categoria 11" />
+                                        <h4 className="centered">Servicios Profesionales o Técnicos</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category12">
-                                    <img className="imageCategory" src={categorie5} alt="categoria 12" />
-                                    <h4 className="centered">Tecnología y Agroindustria</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category12">
+                                        <img className="imageCategory" src={categorie5} alt="categoria 12" />
+                                        <h4 className="centered">Tecnología y Agroindustria</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory">
-                                <Link to="/category13">
-                                    <img className="imageCategory" src={categorie6} alt="categoria 13" />
-                                    <h4 className="centered">Tutorías o Asesorías académicas</h4>
-                                </Link>
-                            </div>
-                        </Col>
+                            <Col md={1}>
+                                <div className="containerCategory">
+                                    <Link to="/category13">
+                                        <img className="imageCategory" src={categorie6} alt="categoria 13" />
+                                        <h4 className="centered">Tutorías o Asesorías académicas</h4>
+                                    </Link>
+                                </div>
+                            </Col>
 
-                        <Col md={2}>
-                            <div className="containerCategory"> 
-                                <Link to="/category14">
-                                    <img className="imageCategory" src={categorie7} alt="categoria 14" />
-                                    <h4 className="centered">Otros</h4>
-                                </Link>
-                            </div>  
-                        </Col>
-
+                            <Col md={1}>
+                                <div className="containerCategory"> 
+                                    <Link to="/category14">
+                                        <img className="imageCategory" src={categorie7} alt="categoria 14" />
+                                        <h4 className="centered">Otros</h4>
+                                    </Link>
+                                </div>  
+                            </Col>
+                            
+                        </div>
                     </Row>
                    
 

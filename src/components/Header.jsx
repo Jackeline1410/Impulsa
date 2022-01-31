@@ -14,7 +14,7 @@ const Header = () => {
         <Container className="image-container">
             <Container fluid />
             <Row>
-                <Col>
+                <Col md={4}>
                 <Link to="/">
                 <div className="navbar-left">
                 <img id="logo" src={logo} alt="logo" className="nav-logo" />
@@ -32,19 +32,17 @@ const Header = () => {
                     </div>
                 </Col>
 
-                <div className="navbar-right">
-                    <Col>
+                <Col>  
+                    <Row className="navbar-right">             
+                        
                         <Link to="/login">
-                            <img className="loginStart" src={loginStart} alt="loginStart"/>
+                            <button  className="buttonlogin" type="button"><img src={loginStart}   alt="loginStart"/></button>
                         </Link>
-                    </Col>  
-                    <Col>
-                        <img src={themeColor} alt="color theme" />
-                    </Col>
-                    <Col>
-                        <img src={quiclySearch} alt="quickly search" />
-                    </Col>              
-                </div>
+                            <img className="themeColor" src={themeColor} alt="color theme" />
+                            <img className="quiclySearch" src={quiclySearch} alt="quickly search" />
+                    </Row>     
+                </Col>
+
             </Row>
         </Container>
     

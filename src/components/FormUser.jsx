@@ -1,31 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {Row, Col} from 'react-grid';
+import '../styles/FormUser.scss';
 
 
 const FormUser = () => {
     return(
-        <div>
-        <h1>Registro de usuario</h1>
-            <p>Impulsa UIS busca reconocer a los emprendimientos y empresas creadas por estudiantes y egresados de pregrado y posgrado de la Universidad Industrial de santander. Esta es una plataforma para la promoción y visibilización de sus productos y servicios, cualquier interesado deberá comunicarse directamente con los datos de contacto de cada emprendedor.</p>
-            <p><strong>Este formulario deberá ser diligenciado completamente</strong></p>
+        <div className="mainContainer">
+        <h1 className="title">Registro de usuario</h1>
+            <p className="paragraph">Impulsa UIS busca reconocer a los emprendimientos y empresas creadas por estudiantes y egresados de pregrado y posgrado de la Universidad Industrial de santander. Esta es una plataforma para la promoción y visibilización de sus productos y servicios, cualquier interesado deberá comunicarse directamente con los datos de contacto de cada emprendedor.</p>
+            <p className="p"><strong>Este formulario deberá ser diligenciado completamente</strong></p>
 
             <form action="/" className="form">
                 <Row>
                     <Col md={6}>
-                    <label for="names" className="label">Nombres:</label>
+                        <label for="names" className="label">Nombres:</label>
                     </Col>
                     <Col md={6}>
-                    <label for="lastnames" className="label">Apellidos:</label>
+                        <label for="lastnames" className="label">Apellidos:</label>
                     </Col>
                 </Row>
 
                 <Row>
                     <Col md={6}>
-                        <input type="names" id="names" placeholder="Nombres" className="input input-names" />
+                        <input id="names" placeholder="Nombres" className="input input-names" size="65"/>
                     </Col>
                     <Col md={6}>
-                        <input type="lastnames" id="lastnames" placeholder="Apellidos" className="input input-lastnames" />
+                        <input type="lastnames" id="lastnames" placeholder="Apellidos" className="input input-lastnames" size="65" />
                     </Col>
                 </Row>
 
@@ -50,7 +51,7 @@ const FormUser = () => {
                     </select>                        
                     </Col>
                     <Col md={6}>
-                        <input type="numberDocument" id="numberDocument" placeholder="Número de documento" className="input input-numberDocument" />
+                        <input type="numberDocument" id="numberDocument" placeholder="Número de documento" className="input input-numberDocument" size="65"/>
                     </Col>
                 </Row>
 
@@ -62,7 +63,7 @@ const FormUser = () => {
 
                 <Row>
                     <Col>
-                    <input type="contactPhone" id="contactPhone" placeholder="Teléfono de contacto" className="input input-numberDocument" />
+                    <input type="contactPhone" id="contactPhone" placeholder="Teléfono de contacto" className="input input-numberDocument"  size="137"/>
                     </Col>
                 </Row>
 
@@ -92,7 +93,7 @@ const FormUser = () => {
 
                 <Row>
                     <Col>
-                    <input type="programPregrado" id="programPregrado" placeholder="Seleccione un programa de pregrado" className="input input-programPregrado" />
+                    <input type="programPregrado" id="programPregrado" placeholder="Seleccione un programa de pregrado" className="input input-programPregrado" size="137"/>
                     </Col>
                 </Row>
 
@@ -105,7 +106,7 @@ const FormUser = () => {
 
                 <Row>
                     <Col>
-                    <input type="programPosgrado" id="programPosgrado" placeholder="Seleccione un programa de posgrado" className="input input-programPregrado" />
+                    <input type="programPosgrado" id="programPosgrado" placeholder="Seleccione un programa de posgrado" className="input input-programPregrado" size="137" />
                     </Col>
                 </Row>
 
@@ -121,20 +122,21 @@ const FormUser = () => {
 
                 <Row>
                     <Col md={6}>
-                        <input type="email" id="email" placeholder="Email" className="input input-email" />
+                        <input type="email" id="email" placeholder="Email" className="input input-email" size="65"/>
                     </Col>
                     <Col md={6}>
-                        <input type="password" id="password" placeholder="Contraseña" className="input input-password" />
+                        <input type="password" id="password" placeholder="Contraseña" className="input input-password" size="65" />
                     </Col>
                 </Row>
-
+                    
                 <Row>
                     <Link to="/login">
-                        <input value="REGISTRAR" className="primary-button join-botton"></input>
+                        <button className="primary-button">REGISTRARME</button>
                     </Link>
                 </Row>
 
             </form>
+                    
         </div>
     );
 }

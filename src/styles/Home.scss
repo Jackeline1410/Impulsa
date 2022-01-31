@@ -9,8 +9,8 @@
 }
 
 .aboutUs {
-   padding-left: 10px; 
-   padding-right: 10px;
+   padding-left: 5px; 
+   padding-right: 5px;
 }
 
 .title {
@@ -39,7 +39,8 @@
 
  
 .categoryContainer {
-    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .categoryTitle {
@@ -57,7 +58,10 @@
 }
 
 .containerCategory {
+    display: inline-flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -81,7 +85,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .primary-button {
@@ -174,4 +177,10 @@
     display: block;
     align-items: center;
     width: 900px;   
+}
+
+.row {
+    justify-content: center;
+    display: block;
+    align-items: center;
 }
