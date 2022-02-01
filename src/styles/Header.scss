@@ -54,19 +54,15 @@
 }
 
 .buttonlogin {
-  position: relative;
-  background: black;
-  border: transparent;
-  justify-content: center;
+  background: url("../assets/icons/Vector (12).svg") no-repeat 50%;
+  border: 1px solid transparent;
+  width: 50px;
+  height: 50px;
 }
 
 .buttonlogin:hover {
-  background: url("../assets/icons/iconlogin.svg");
-  background-position: inherit;
-  transform: scale(1.10);
-  height: 50px;
-  width: 50px;
-  
+  background: url("../assets/icons/iconlogin.svg") no-repeat 50%;
+  transform: scale(1.2);  
 }
 
 
