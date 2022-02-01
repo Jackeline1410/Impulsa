@@ -64,16 +64,64 @@
 }
 
 .location {
-    width: 10%;
+    height: 20px;
+    width: 20px;
     text-align: center;
 }
 
 .flecha {
-    width: 10%;
+    height: 20px;
+    width: 20px;
     text-align: center;
 }
 
 .row {
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.col {
+   text-align: center;
+    display: block;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+  
+.card {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1rem;
+}
+
+.photo {
+    width: 450px;
+    height: 300px;
+}
+
+.information {
+    text-align: center;
+    display: block;    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.reproductor {
+    max-width: 50%;
+    height: auto;
 }

@@ -10,7 +10,6 @@ import entrepreneurMain from '../assets/logos/sdfsdfsdfsdfs 1.svg';
 import { Container, Row, Col } from 'react-grid';
 import logoid3co from '../assets/logos/logoid3co.svg';
 import iconyoutube from '../assets/icons/iconyoutube.svg';
-import { Button } from 'semantic-ui-react';
 import '../styles/Home.scss';
 
 import categorie1 from '../assets/icons/Categorie1.svg';
@@ -58,7 +57,9 @@ const Home = () => {
                            
                 </Container>
 
-                    <img src={separatorSection} alt="separator section" />
+                <div>
+                    <img className="separatorSection" src={separatorSection} alt="separator section" />
+                </div>
                     
                 <Container id="entrepeneurMain" className="entrepeneurMain">
                     <Row className="title">Emprendimiento Destacado</Row>
@@ -88,7 +89,9 @@ const Home = () => {
                         </Link>
                 </Container>
                     
-                    <img src={separatorSection} alt="separator section" />
+                    <div >
+                    <img className="separatorSection" src={separatorSection} alt="separator section" />
+                    </div>
                    
                 <Container id="categoryContainer" className="categoryContainer">
                     <Row className="title">Categorias</Row>
@@ -154,7 +157,7 @@ const Home = () => {
                             <Col md={1}>
                                 <div className="containerCategory">
                                     <Link to="/category7">
-                                        <img className="imageCategory7" src={categorie7} alt="categoria 7" />
+                                        <img className="imageCategory" src={categorie7} alt="categoria 7" />
                                         <h4 className="centered">Infraestructura y Construcción</h4>
                                     </Link>
                                 </div>

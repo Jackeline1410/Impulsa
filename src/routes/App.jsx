@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Login from '../containers/Login';
 import RecoveryPassword from '../containers/RecoveryPassword';
 import Home from '../pages/Home';
@@ -64,7 +65,7 @@ const App = () => {
 
                 <Route path="*" element={<NotFound/>} />
                 </Routes>
-        
+            
         </BrowserRouter>
     );
 }

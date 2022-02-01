@@ -11,6 +11,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Header = () => {
 
     return(    
+    
         <Container className="image-container">
             <Container fluid />
             <Row>
@@ -36,7 +37,7 @@ const Header = () => {
                     <Row className="navbar-right">             
                         
                         <Link to="/login">
-                            <button  className="buttonlogin" type="button"><img src={loginStart}   alt="loginStart"/></button>
+                            <button  className="buttonlogin"><img src={loginStart}   alt="loginStart"/></button>
                         </Link>
                             <img className="themeColor" src={themeColor} alt="color theme" />
                             <img className="quiclySearch" src={quiclySearch} alt="quickly search" />

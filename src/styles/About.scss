@@ -42,3 +42,37 @@
     max-width: 100%;
     height: auto;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+.container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+  
+.card {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1rem;
+}
+
+.photo {
+      vertical-align: middle;
+      max-width: 300px;
+}
+
+.information {
+    text-align: center;
+    display: block;    
+}
