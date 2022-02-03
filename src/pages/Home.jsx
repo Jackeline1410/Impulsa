@@ -96,7 +96,7 @@ const Home = () => {
                     <p className="categoryDescription">A continuación encontrarás las categorías de los emprendimientos disponibles</p>
 
                     <Row>
-                        <div className="sponsors">
+                        <div className="categoryColumnTop">
                             <Col md={1}>
                                 <div className="containerCategory">
                                     <Link to="/category1">
@@ -166,7 +166,7 @@ const Home = () => {
             
 
                     <Row>
-                        <div className="sponsors">
+                        <div className="categoryColumnBottom">
                             <Col md={1}>
                                 <div className="containerCategory">
                                     <Link to="/category8">
