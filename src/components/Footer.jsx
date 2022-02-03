@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer">
             
                <div className="redsocials">
-                    <div className="titles">REDES SOCIALES:</div>
+                    <p className="titles">REDES SOCIALES:</p>
                         <a href='https://www.facebook.com/ImpulsaUIS' target="_blank" >
                             <img className="logoface" src={logoface} alt="facebook" />
                             <div className="p-face">Impulsa UIS</div>
