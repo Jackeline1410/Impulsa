@@ -43,13 +43,10 @@
     height: auto;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-  }
-  
 .container {
     display: flex;
     overflow-x: scroll;
+    overscroll-behavior: x;
     width: 100%;
     align-items: center;
     display: flex;

@@ -11,53 +11,41 @@ import aseduis from '@logos/aseduis.svg';
 
 const Footer = () => {
     return(
-        <Container className="imageContainer">
-           
-            <Container fluid />
+        <div className="footer">
+            
+               <div className="redsocials">
+                    <div className="titles">REDES SOCIALES:</div>
+                        <a href='https://www.facebook.com/ImpulsaUIS' target="_blank" >
+                            <img className="logoface" src={logoface} alt="facebook" />
+                            <div className="p-face">Impulsa UIS</div>
+                        </a>
+                        <a href='https://www.instagram.com/impulsauis/' target="_blank">
+                            <img className="logo-insta" src={logoinsta} alt="instagram" />
+                            <div className="p-insta">@impulsauis</div>
+                        </a>
                 
-                <Row>
-                    <Col md={6}>
-                        <div className="socials">
-                            <Row>
-                                <h2 className="titles">REDES SOCIALES:</h2>
-                            </Row>
-                            <Row>
-                                <a href='https://www.facebook.com/ImpulsaUIS' target="_blank" >
-                                    <img src={logoface} alt="facebook" />
-                                    <p className="p-face">Impulsa UIS</p>
-                                </a>
-                            
-                                <a href='https://www.instagram.com/impulsauis/' target="_blank">
-                                    <img src={logoinsta} alt="instagram" />
-                                    <p className="p-insta">@impulsauis</p>
-                                </a>
-                            </Row>
-                        </div>
-                    </Col>
+                </div>
+                <div className="sponsor">
+                        <div className="titles">APOYA:</div>
                     
+                        <a href='https://jejaimes.com.co/' target="_blank">
+                            <img className="imagesupport" src={support} alt="support" />
+                        </a>
+                </div>
+                <div className="support">
 
-                    <Col md={6}>
-                        <div className="sponsors">
-                            <Row>
-                                <Col>
-                                    <div className="titles">APOYA:</div>
-                                    <a href='https://jejaimes.com.co/' target="_blank">
-                                        <img src={support} alt="support" />
-                                    </a>
-                                    
-                                </Col>
-                                <Col>
-                                    <div className="titles">ORGANIZA:</div>
-                                    <a href='https://www.aseduis.com/Bucaramanga/' target="_blank">
-                                    <img src={aseduis} alt="aseduis" />
-                                    </a>
-                                </Col>
-                            </Row>   
-                        </div>
-                    </Col>
+                        <div className="titles">ORGANIZA:</div>
+                        <a href='https://www.aseduis.com/Bucaramanga/' target="_blank">
+                            <img className="imageaseduis" src={aseduis} alt="aseduis" />
+                        </a>
+                </div>     
 
-                </Row>
-            </Container>
+    
+        </div>       
+                      
+           
+
+            
     );
 }
 

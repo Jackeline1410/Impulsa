@@ -1,33 +1,28 @@
-.imageContainer {
-    display: block;
+.footer {  
+    background: url("../assets/icons/footernew.svg") repeat-x bottom;
     width: 100%;
+    font-family: "News Cycle",sans-serif;
     height: 200px;
-    background: #000;
-    clip-path: polygon(0 0,100% 0,100% 54%,82% 100%,55% 71%,17% 100%,0 58%);
-    box-sizing: border-box;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
+    display: flex;
 }
 
 .titles {
-    color: white;
+    color: orange;
+    
 }
 
-.px-3 {
-    padding-right: 1rem!important;
-    padding-left: 1rem!important;
-}
-
-.socials {
+.redsocials {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5rem;
+}
+
+.logoface {
+    width: 30px;
+    height: 30px;
 }
 
 .p-face {
@@ -43,6 +38,11 @@
     padding: 0;
 }
 
+.logo-insta {
+    width: 30px;
+    height: 30px;
+}
+
 .p-insta {
     color: white;
     font-weight: 500;
@@ -56,8 +56,9 @@
     padding: 0;
 }
 
-.sponsors {
-    grid-area: sponsors;
+
+.sponsor {
+    grid-area: sponsor;
     display: flex;
     position: relative;
     display: flex;
@@ -67,3 +68,13 @@
     padding-top: 0.5rem;
 }
 
+.support {
+    grid-area: sponsor;
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}

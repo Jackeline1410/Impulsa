@@ -1,6 +1,6 @@
 .mainContainer {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 60.5;
+    margin-left: 60.5;
 }
 
 .header {
@@ -9,14 +9,112 @@
 }
 
 .aboutUs {
-   padding-left: 5px; 
-   padding-right: 5px;
+   margin: 0px 60px;
+   padding: 0px 30px;
 }
 
-.title {
+.entrepeneurMain {
+    margin: 30px 60px 0px;
+    padding: 0px 7.5px;
+}
+
+.categoryContainer {
+    margin: 30px 0px;
+    padding: 30px 7.5px;
+}
+
+.title-entrepreneur {
+    font-family: "Alegreya-Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #3bb3c3;
+    justify-content: center;
+}
+
+.name-entrepreneur {
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-family: "News Cycle",sans-serif;
+}
+
+.containerbutton {
+   justify-content: flex-start;
+}
+
+
+.primary-button {
+    background-color: #7a1a66;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: white;
+    
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    line-height: 1.5;
+    font-family: inherit;
+    --btn-raise: 1rem;
+    clip-path: polygon(var(--btn-raise) 0,calc(100% - var(--btn-raise)) 0,100% 50%,calc(100% - var(--btn-raise)) 100%,var(--btn-raise) 100%,0 50%);
+}
+
+.primary-button:hover {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    color: purple;
+    width: 25%;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    display: block;
+}
+
+.separatorSection {
+    background: url('../assets/icons/separator.svg');
+    width: auto;
+    height: 135px;
+}
+
+
+.categoryTitle {
+    font-family: "Alegreya-Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #3bb3c3;
+    justify-content: center;
+    color: #e67016;
+    margin-bottom: 0.5rem;
+}
+
+.categoryDescription {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    font-family: "Alegreya Sans",sans-serif;
+    text-align: center;    
+    line-height: 1.2;
 }
 
 .p {
@@ -37,26 +135,6 @@
     margin: 0;
 }
 
- 
-.categoryContainer {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.categoryTitle {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    color: #e67016;
-}
-
-.categoryDescription {
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
 .containerCategory {
     display: inline-flex;
     position: relative;
@@ -71,46 +149,10 @@
     width: 150px;
 }
 
-.centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-decoration: inherit;
-    color: white;
-    text-decoration: none;
-}
-
 .categorie1 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.primary-button {
-        background-color: #7a1a66;
-        border-radius: 8px;
-        border: none;
-        color: white;
-        width: 25%;
-        font-size: var(--md);
-        font-weight: bold;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-}
-
-.primary-button:hover {
-    background-color: whitesmoke;
-    border-radius: 8px;
-    border: none;
-    color: purple;
-    width: 25%;
-    font-size: var(--md);
-    font-weight: bold;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
 }
 
 .paragraph {
@@ -118,13 +160,6 @@
     display: block;
     font-family: 'News Cycle",sans-serif';
     line-height: 1.5;
-}
-
-
-.name {
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
 }
 
 .container {

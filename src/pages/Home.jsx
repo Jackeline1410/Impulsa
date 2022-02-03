@@ -4,10 +4,10 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import titleParagraph from '../assets/logos/Group 102.svg';
 import loading from '../assets/logos/Capa 2.svg';
-import separatorSection from '../assets/icons/Vector 19.svg';
+
 import entrepreneurMain from '../assets/logos/sdfsdfsdfsdfs 1.svg';
 
-import { Container, Row, Col } from 'react-grid';
+import { Row, Col } from 'react-grid';
 import logoid3co from '../assets/logos/logoid3co.svg';
 import iconyoutube from '../assets/icons/iconyoutube.svg';
 import '../styles/Home.scss';
@@ -26,9 +26,9 @@ const Home = () => {
         <div >
         <Header className="header"/>
 
-            <Container id="mainContainer" className="mainContainer">
+            <div id="mainContainer" className="mainContainer">
 
-                <Container id="aboutUs" className="aboutUs" >
+                <div id="aboutUs" className="aboutUs" >
                 
                     <Row className="row">
                         <Col>
@@ -47,23 +47,22 @@ const Home = () => {
                             <img className="loading" src={loading} alt="loading" />
                         </Col>
                     </Row>
-        
-                    
-                    <div>
+
+                    <div className="containerbutton">
                         <Link to="/register">
                             <button  className="primary-button" >UNIRME</button>  
                         </Link>
                     </div>
-                           
-                </Container>
 
-                <div>
-                    <img className="separatorSection" src={separatorSection} alt="separator section" />
+      
                 </div>
+
+                
+                <div className="separatorSection"></div>
                     
-                <Container id="entrepeneurMain" className="entrepeneurMain">
-                    <Row className="title">Emprendimiento Destacado</Row>
-                    <Row className="name">ID3CO</Row>
+                <div id="entrepeneurMain" className="entrepeneurMain">
+                    <Row className="title-entrepreneur">Emprendimiento destacado</Row>
+                    <Row className="name-entrepreneur">ID3CO</Row>
                     <Row className="container">
                         <img className="imageid3co" src={entrepreneurMain} alt="entrepreneur main" />
                         <div className="overlay">
@@ -83,19 +82,18 @@ const Home = () => {
                             </div>
                         </div>
                     </Row>
-
+                        <div className="row">
                         <Link to="/emprendimiento">
-                            <button className="primary-button login-button">CONOCE MAS</button>
+                            <button className="primary-button">CONOCE MAS</button>
                         </Link>
-                </Container>
+                        </div>
+                </div>
                     
-                    <div >
-                    <img className="separatorSection" src={separatorSection} alt="separator section" />
-                    </div>
+                <div className="separatorSection"></div>
                    
-                <Container id="categoryContainer" className="categoryContainer">
-                    <Row className="title">Categorias</Row>
-                    <Row className="categoryDescription">A continuación encontrarás las categorías de los emprendimientos disponibles</Row>
+                <div id="categoryContainer" className="categoryContainer">
+                    <Row className="categoryTitle">Categorías</Row>
+                    <p className="categoryDescription">A continuación encontrarás las categorías de los emprendimientos disponibles</p>
 
                     <Row>
                         <div className="sponsors">
@@ -236,8 +234,8 @@ const Home = () => {
                     </Row>
                    
 
-                </Container>
-            </Container>
+                </div>
+            </div>
 
         <Footer/>
         </div>

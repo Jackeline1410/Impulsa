@@ -1,8 +1,6 @@
 @import 'vars';
 
 .image-container {
-    display: block;
-    width: 100%;
     height: 200px;
     background: #000;
     clip-path: polygon(0 0,100% 0,100% 54%,82% 100%,55% 71%,17% 100%,0 58%);
@@ -10,18 +8,21 @@
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     background-size: cover;
-    padding: 0;
+    padding-bottom: 3rem;
     margin: 0;
+    font-family: "News Cycle",sans-serif;
+    font-size: 95%;
+}
+
+.navbar-left {
+  display: flex;
+  text-align: center;
 }
 
 .nav-logo {
   width: 200px;
   margin-top: 10px;
-}
-
-.navbar-left {
-  display: flex;
-  text-align: left;
+  vertical-align: middle;
 }
 
 .navbar-center {
@@ -32,52 +33,67 @@
   text-align: center;
   margin-top: 15px;
   justify-content: space-between;
+  
+  box-sizing: border-box;
+  flex-direction: row;
 }
 
-.header-link-hover {
+.header-link {
   color: white;
   text-decoration: inherit;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  display: grid;
+  width: 110px;
 }
 
-.header-link-hover:hover {
+.header-link:hover {
   background-color: transparent;
-  font-size: 120%;
+  font-size: 110%;
   color: rgb(156, 40, 147);
 }
 
 .navbar-right {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 15px;
   align-items: center;
   justify-content: space-between;
 }
 
 .buttonlogin {
-  background: url("../assets/icons/Vector (12).svg") no-repeat 50%;
+  background: url("../assets/icons/Vector (12).svg") no-repeat 40%;
   border: 1px solid transparent;
   width: 50px;
   height: 50px;
 }
 
 .buttonlogin:hover {
-  background: url("../assets/icons/iconlogin.svg") no-repeat 50%;
-  transform: scale(1.2);  
+  background: url("../assets/icons/iconlogin.svg") no-repeat 40%;
+  transform: scale(1.1);  
 }
 
 
-.themeColor {
-  justify-content: space-between;
+.buttontheme {
+  background: url("../assets/icons/Frame 168.svg") no-repeat 40%;
+  border: 1px solid transparent;
+  width: 50px;
+  height: 50px;
 }
 
-.themeColor:hover {
+.buttontheme:hover {
   transform: scale(1.10);
+  background: url("../assets/icons/Frame 169.svg") no-repeat 40%;
 }
 
-.quiclySearch {
-  justify-content: space-between;
+.buttonsearch {
+  background: url("../assets/icons/Vector (11).svg") no-repeat 20%;
+  border: 1px solid transparent;
+  width: 60px;
+  height: 60px;
 }
 
-.quiclySearch:hover {
+.buttonsearch:hover {
   transform: scale(1.10);
+  background: url("../assets/icons/Vector (15).svg") no-repeat 40%;
 }
