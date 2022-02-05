@@ -2,8 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-grid';
 import '../styles/Header.scss';
 
-import logo from '@logos/Frame 137.svg';
-import quiclySearch from '@icons/Vector (11).svg';
+import logoimpulsaUIS from '@logos/Frame 137.svg';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
@@ -14,11 +13,11 @@ const Header = () => {
             <div fluid />
             <Row>
                 <Col md={4}>
-                <Link to="/">
-                <div className="navbar-left">
-                <img id="logo" src={logo} alt="logo" className="nav-logo" />
-                </div>
-                </Link>
+                    <Link to="/">
+                        <div className="navbar-left">
+                        <img id="logo" src={logoimpulsaUIS} alt="logo" className="nav-logoimpulsaUIS" />
+                        </div>
+                    </Link>
                 </Col>
 
                 <Col md={6}>
@@ -39,7 +38,13 @@ const Header = () => {
                         </Link>
                             <button className="buttontheme"></button>
 
-                            <button className="buttonsearch"></button>
+                            <form className="formquiclysearch">
+                                <button className="buttonclosedquiclysearch" type="submit">
+                                </button>
+                                <input className="inputquiclysearch" type="search" placeholder="Buscar" aria-label="Buscar" />
+                                <button className="buttonquiclysearch" type="submit">
+                                </button>
+                            </form>
                     </div>     
                 </Col>
 

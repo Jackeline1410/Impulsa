@@ -26,7 +26,7 @@ const Home = () => {
         <div >
         <Header className="header"/>
 
-            <div id="mainContainer" className="mainContainer">
+            <div id="mainContainerHome" className="mainContainerHome">
 
                 <div id="aboutUs" className="aboutUs" >
                 
@@ -72,17 +72,20 @@ const Home = () => {
                                         <img className="logoid3co" src={logoid3co} alt="logo id3co" />
                                     </Col>
                                     <Col>
-                                        Hola somos id3co, nos dedicamos a elaborar productos que darán un toque de estilo y creatividad a los espacios de tu hogar, como homme-office, rincón green, rincón de lectura y espacios infantiles...
-                                        <br></br>
-                                        <img src={iconyoutube} alt="iconyoutube" />
-                                        <span>Youtube</span>
+                                        <p className="paragraph-overlayid3co">Hola somos id3co, nos dedicamos a elaborar productos que darán un toque de estilo y creatividad a los espacios de tu hogar, como homme-office, rincón green, rincón de lectura y espacios infantiles...</p>
+                                        
+                                        <div className="sectionyouTube">
+                                        <img className="iconyoutube" src={iconyoutube} alt="iconyoutube" />
+                                        <p>YouTube</p>
+                                        </div>
+
                                     </Col>
                                         <p>Conéctate en nuestro en vivo para que conozcas tips de decoración <strong>www.youtube.com/id3co</strong></p>
                                 </Row>                        
                             </div>
                         </div>
                     </Row>
-                        <div className="row">
+                        <div className="rowbuttonentrepreneur">
                         <Link to="/emprendimiento">
                             <button className="primary-button">CONOCE MAS</button>
                         </Link>

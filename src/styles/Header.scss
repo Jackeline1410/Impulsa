@@ -19,10 +19,11 @@
   text-align: center;
 }
 
-.nav-logo {
+.nav-logoimpulsaUIS {
   width: 200px;
   margin-top: 10px;
   vertical-align: middle;
+  padding-left: 10px;
 }
 
 .navbar-center {
@@ -33,9 +34,6 @@
   text-align: center;
   margin-top: 15px;
   justify-content: space-between;
-  
-  box-sizing: border-box;
-  flex-direction: row;
 }
 
 .header-link {
@@ -56,6 +54,7 @@
 .navbar-right {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
   margin-top: 15px;
   align-items: center;
   justify-content: space-between;
@@ -86,14 +85,52 @@
   background: url("../assets/icons/Frame 169.svg") no-repeat 40%;
 }
 
-.buttonsearch {
-  background: url("../assets/icons/Vector (11).svg") no-repeat 20%;
-  border: 1px solid transparent;
-  width: 60px;
-  height: 60px;
+.formquiclysearch {
+  display: flex;
 }
 
-.buttonsearch:hover {
+.formquiclysearch:hover {
+  display: inline-block;
+}
+
+.inputquiclysearch {
+  display: inline-block;
+  height: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  visibility: hidden;
+}
+
+.inputquiclysearch:hover {
+  display: none;
+}
+
+
+.buttonquiclysearch {
+  background: url("../assets/icons/Vector (11).svg") no-repeat 40%;
+  border: 1px solid transparent;
+  width: 55px;
+  height: 55px;
+}
+
+.buttonquiclysearch:hover {
   transform: scale(1.10);
   background: url("../assets/icons/Vector (15).svg") no-repeat 40%;
+}
+
+.imagequiclysearch {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  justify-content: space-between;
+}
+
+.buttonclosedquiclysearch {
+  width: 50px;
+  height: 50px;
+  background: url('../assets/icons/close-button.svg') no-repeat center;
+  visibility: hidden;
+}
+
+.buttonclosedquiclysearch:hover {
+  background: url('../assets/icons/close-button-hover.svg') no-repeat center;
 }

@@ -7,11 +7,12 @@
 }
 
 .titles {
-    color: orange;
+    color: white;
+    font-size: 1rem;
     
 }
 
-.redsocials {
+.socialnetworks {
     position: relative;
     display: inline;
     flex-wrap: wrap;
@@ -30,14 +31,15 @@
 .p-face {
     color: white;
     font-weight: 500;
-    font-size: calc(1.325rem + .9vw);
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     margin-left: 0.5rem;
     display: inline;
     box-sizing: border-box;
     padding: 0;
+    text-decoration: none;
 }
 
 .logo-insta {
@@ -48,7 +50,7 @@
 .p-insta {
     color: white;
     font-weight: 500;
-    font-size: calc(1.325rem + .9vw);
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0.5rem;
@@ -60,23 +62,31 @@
 
 
 .sponsor {
-    grid-area: sponsor;
-    display: flex;
     position: relative;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.5rem;
+    margin-top: auto;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
 }
 
 .support {
-    grid-area: sponsor;
-    display: flex;
     position: relative;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.5rem;
+    margin-top: auto;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+}
+
+.imagesupportsponsor {
+    width: 85px;
+}
+
+.imageaseduissupport {
+    width: 97px;
 }

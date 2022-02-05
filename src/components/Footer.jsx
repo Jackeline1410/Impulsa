@@ -13,7 +13,7 @@ const Footer = () => {
     return(
         <div className="footer">
             
-               <div className="redsocials">
+               <div className="socialnetworks">
                     <p className="titles">REDES SOCIALES:</p>
                         <a href='https://www.facebook.com/ImpulsaUIS' target="_blank" >
                             <img className="logoface" src={logoface} alt="facebook" />
@@ -23,20 +23,23 @@ const Footer = () => {
                             <img className="logo-insta" src={logoinsta} alt="instagram" />
                             <div className="p-insta">@impulsauis</div>
                         </a>
-                
                 </div>
+
+                <Col md={4}></Col>
+
                 <div className="sponsor">
-                        <div className="titles">APOYA:</div>
+                        <p className="titles">APOYA:</p>
                     
                         <a href='https://jejaimes.com.co/' target="_blank">
-                            <img className="imagesupport" src={support} alt="support" />
+                            <img className="imagesupportsponsor" src={support} alt="support" />
                         </a>
                 </div>
-                <div className="support">
 
-                        <div className="titles">ORGANIZA:</div>
+               
+                <div className="support">
+                        <p className="titles">ORGANIZA:</p>
                         <a href='https://www.aseduis.com/Bucaramanga/' target="_blank">
-                            <img className="imageaseduis" src={aseduis} alt="aseduis" />
+                            <img className="imageaseduissupport" src={aseduis} alt="aseduis" />
                         </a>
                 </div>     
 

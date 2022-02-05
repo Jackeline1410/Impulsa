@@ -1,11 +1,14 @@
-.mainContainer {
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0px;
-    padding: 10px 0px;
+.mainContainerAbout {
+    margin-right: 60.5;
+    margin-left: 60.5;
 }
 
-.title {
+.header {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.titleAbout {
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -15,7 +18,7 @@
     font-size: calc(4rem + .5vw);
 }
 
-.paragraph {
+.paragraphAbout {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -27,23 +30,23 @@
     font-family: "News Cycle",sans-serif;
 }
 
-.column {
+.columnAbout {
     display: flex;
     justify-content: center;
 }
 
-.logoimpulsa {
+.logoimpulsaAbout {
     vertical-align: middle;
     min-width: 250px;
 }
 
-.logoaseduis {
+.logoaseduisAbout {
     width: 250px;
     max-width: 100%;
     height: auto;
 }
 
-.container {
+.containerjuntaAbout {
     display: flex;
     overflow-x: scroll;
     overscroll-behavior: x;
@@ -69,7 +72,35 @@
       max-width: 300px;
 }
 
-.information {
+.name {
     text-align: center;
     display: block;    
+}
+
+.role {
+    text-align: center;
+    display: block;    
+}
+
+.career {
+    text-align: center;
+    display: block;    
+}
+
+.containerworkersAseduis {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: x;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.containerteamDeveloper {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: x;
+    width: 100%;
+    align-items: center;
+    display: flex;
 }
