@@ -1,21 +1,28 @@
-.mainContainer {
-    align-items: center;
-    margin: 10px 0px;
-    padding: 10px 0px;
+
+.header {
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-.title {
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.titleContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #e4312a;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 800;
-    font-size: calc(4rem + .5vw);
+    font-size: 2.5rem;
+}
+.imglocationimpulsa {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 30px;
+    width: 24px;
 }
 
-.paragraph {
+.paragraphlocation {
     font-size: 20px;
+    font-weight: 700;
     margin-top: 0;
     margin-bottom: 1rem;
     margin-block-start: 1em;
@@ -25,11 +32,46 @@
     font-family: "News Cycle",sans-serif;
     align-items: center;
     justify-content: center;
+    color: #e4312a;
 }
 
-.row {
+.rowContactUs {
     align-items: center;
     justify-content: center;
+}
+
+.iconphoneContactUs {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.iconwhatsappContactUs {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    margin-left: 400px;
+}
+
+.phonenumber {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.whatsnumber {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.iconemailContactUs {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.emailContactUs {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .cohete {
@@ -43,10 +85,8 @@
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-left: 60.5px;
+    margin-right: 60.5px;
     font-family: "News Cycle",sans-serif;
     align-items: center;
     justify-content: center;
@@ -57,10 +97,8 @@
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-left: 60.5px;
+    margin-right: 60.5px;
     font-family: "News Cycle",sans-serif;
     align-items: center;
     justify-content: center;

@@ -1,20 +1,26 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {Container} from 'react-grid';
-
+import {Row} from 'react-grid';
+import nopromos from '../assets/logos/Capa 2.svg';
 import '../styles/Promotions.scss';
 
 const Promotions = () => {
     return(
-        <Container>
-            <div className="mainContainer">
-            <Header />
-            <h2 className="title">Promo</h2>
-            <p className="paragraph">A continuación encontrarás las promos disponibles por categoría de emprendimiento</p>
-            <Footer />
-            </div>
-        </Container>
+        <div>
+                <Header className="header"/>
+               
+                <h2 className="titlePromo">Promo</h2>
+                <p className="paragraphdescriptionPromo">A continuación encontrarás las promos disponibles por categoría de emprendimiento</p>
+
+                <div>
+                    <img className="noPromo" src={nopromos} alt="img no-promos" />
+                </div>
+                
+                <p className="paragraphdescriptionPromo">Actualmente no hay promociones disponibles, espéralas muy pronto</p>
+                
+                <Footer />
+        </div>      
     );
 }
 

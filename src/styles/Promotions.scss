@@ -1,28 +1,36 @@
-.mainContainer {
+.header {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.titlePromo {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0px;
-    padding: 10px 0px;
-}
-
-.title {
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: #e4312a;
+    color: #E67016;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 800;
-    font-size: calc(4rem + .5vw);
+    font-size: 2.5rem;
 }
 
-.paragraph {
+.paragraphdescriptionPromo {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "News Cycle",sans-serif;
+}
+
+.noPromo {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 1rem;
+    display: flex;
+   
+    
 }

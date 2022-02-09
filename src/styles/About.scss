@@ -9,41 +9,46 @@
 }
 
 .titleAbout {
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    display: flex;
     color: #e4312a;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 800;
-    font-size: calc(4rem + .5vw);
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
 }
 
 .paragraphAbout {
-    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 1rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: "News Cycle",sans-serif;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: "News Cycle", sans-serif;
+    align-items: center;
+    line-height: 1.5;
 }
 
 .columnAbout {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logoimpulsaAbout {
     vertical-align: middle;
-    min-width: 250px;
+    height: 150px;
 }
 
 .logoaseduisAbout {
-    width: 250px;
-    max-width: 100%;
-    height: auto;
+    vertical-align: middle;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
 }
 
 .containerjuntaAbout {
@@ -53,6 +58,8 @@
     width: 100%;
     align-items: center;
     display: flex;
+    box-sizing: border-box;
+
 }
   
 .card {
@@ -103,4 +110,14 @@
     width: 100%;
     align-items: center;
     display: flex;
+}
+
+.subtitlecarousel {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "News Cycle",sans-serif ;
 }

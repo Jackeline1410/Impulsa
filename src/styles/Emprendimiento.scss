@@ -1,26 +1,26 @@
-.mainContainer {
-        align-items: center;
-        justify-content: center;
-        margin: 30px 0px;
-        padding: 30px 0px;
+.header {
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-.title {
-    display: block;
+.titleentrepreneur {
+    display: flex;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #3bb3c3;
-    font-size: 47.2px;
+    font-size: 45px;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 800;
+    align-items: center;
+    justify-content: center;
 }
 
-.subtitle {
+.subtitleentrepreneur {
     color: #000;
     text-align: center;
     font-weight: 900;
     margin-bottom: 0.5rem;
-    
+    font-size: 25px;
 }
 
 .logoemprendimiento {
@@ -38,19 +38,18 @@
     width: 200px;
 }
 
-.paragraph {
+.paragraphentrepreneur {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: "News Cycle",sans-serif;
+    line-height: 1.5;
 }
 
-.data {
+.dataentrepreneur {
     color:#3bb3c3;
     font-size: 20px;
     margin-top: 0;
@@ -60,22 +59,27 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin-right: 2rem;
     font-family: "News Cycle",sans-serif;
 }
 
-.location {
+.locationentrepreneur {
     height: 20px;
     width: 20px;
     text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
-.flecha {
+.flechaentrepreneur {
     height: 20px;
     width: 20px;
     text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
-.row {
+.rowentrepreneur {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -94,7 +98,7 @@
     display: flex;
 }
   
-.card {
+.cardentrepreneur {
     flex-shrink: 0;
     max-width: 100%;
     height: auto;
@@ -106,14 +110,72 @@
     padding: 1rem;
 }
 
-.photo {
+.photoentrepreneur {
     width: 450px;
     height: 300px;
 }
 
-.information {
+.informationentrepreneur {
     text-align: center;
     display: block;    
+}
+
+.faceentrepreneur {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.instaentrepreneur {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.callentrepreneur {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.namefbentrepreneur {
+    color:#3bb3c3;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-flexbox;
+    margin-right: 2rem;
+    font-family: "News Cycle",sans-serif;
+}
+
+
+.nameinstaentrepreneur {
+    color:#3bb3c3;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-flexbox;
+    margin-right: 2rem;
+    font-family: "News Cycle",sans-serif;
+}
+
+.numberentrepreneur {
+    color:#3bb3c3;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-flexbox;
+    margin-right: 2rem;
+    font-family: "News Cycle",sans-serif;
 }
 
 .contenedor {
@@ -122,6 +184,11 @@
 }
 
 .reproductor {
+    width: 500px;
     max-width: 50%;
     height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    display: flex;
 }

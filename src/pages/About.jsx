@@ -3,7 +3,7 @@ import { Container, Col, Row} from 'react-grid';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import Logo from '../assets/logos/Logo.svg';
+import Logo from '../assets/logos/logo-about.svg';
 import logoaseduis from '../assets/logos/Capa 1.svg';
 import presidente from '../assets/images/EdgarRamirez.png';
 import vicepresidente from '../assets/images/GaldysGarcia.png';
@@ -34,7 +34,7 @@ const About = () => {
         <div>
                 <Header  className="header"/>
                 <div className="mainContainerAbout">
-                    <h2 className="titleAbout">Quienes somos</h2>
+                    <h2 className="titleAbout">Quienes Somos</h2>
                     <p className="paragraphAbout">ImpulsaUIS es una iniciativa de la Asociación de Egresados de la Universidad Industrial de Santander capítulo Bucaramanga; que busca el desarrollo personal, profesional y asociativo del Egresado con su Alma Máter</p>
                         <Col className="columnAbout">
                             <img className="logoimpulsaAbout" src={Logo} alt="logo" />
@@ -46,7 +46,7 @@ const About = () => {
                         <img className="logoaseduisAbout" src={logoaseduis} alt="logoaseduis" />
                         </Col>
                     <p className="paragraphAbout">El objetivo de ASEDUIS Capítulo Bucaramanga es unir en un solo directorio a nivel nacional a todos los egresados de la UIS, quienes con su experiencia puedan contribuir y apoyar a nuestra alma mater en lograr los mejores programas para nuestra región y el país; buscando excelentes resultados en el área científica, ingenieril, social y de servicios; basados en principios y valores.</p>
-                    <p><strong>JUNTA DIRECTIVA DE ASEDUIS</strong></p>
+                    <p className="subtitlecarousel">JUNTA DIRECTIVA DE ASEDUIS</p>
 
                         <Container className="containerjuntaAbout">
 
@@ -123,7 +123,7 @@ const About = () => {
                         </Container>
                    
                    
-                    <p><strong>FUNCIONARIOS DE ASEDUIS</strong></p>
+                    <p className="subtitlecarousel">FUNCIONARIOS DE ASEDUIS</p>
 
                         <Container className="containerworkersAseduis">
 
@@ -158,7 +158,7 @@ const About = () => {
 
                         </Container>
 
-                    <p><strong>EQUIPO DE DISEÑO Y DESARROLLO DE IMPULSA UIS</strong></p>
+                    <p className="subtitlecarousel">EQUIPO DE DISEÑO Y DESARROLLO DE IMPULSA UIS</p>
 
                         <Container className="containerteamDeveloper">
 

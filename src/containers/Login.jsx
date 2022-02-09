@@ -2,44 +2,45 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {Row, Col } from 'react-grid';
+import {Row, Col, Container } from 'react-grid';
 import '../styles/Login.scss';
 
 const Login = () => {
     return(
-        <div className="login">
-            <Header />
-            <div className="form-container">
+        <div>
+            <Header className="header" />
+            <div>
             
-                <h1 className="title">Iniciar Sesión</h1>
+                <h1 className="titleLogin">Iniciar Sesión</h1>
 
-                <form action="/" className="form">
-                <label for="password" className="label">Usuario:</label>
-                <input type="password" id="password" placeholder="Email" className="input input-password" />
+                <Container>
+                <form action="/" className="login-form">
+                <label for="password" className="labeluserlogin">Usuario:</label>
+                <input type="password" id="password" placeholder="Email" className="input" />
 
-                <label for="new-password" className="label">Contraseña:</label>
-                <input type="password" id="new-password" placeholder="Contraseña" className="input input-password" />
+                <label for="new-password" className="labeluserlogin">Contraseña:</label>
+                <input type="password" id="new-password" placeholder="Contraseña" className="input" />
 
                 <Row>
                     <Col>
                         <Link className="link-recoverypassword" to="/recovery-password" >
-                            Olvidaste tu contraseña?
+                            <p>Olvidaste tu contraseña?</p>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="link-register" to="/register" >
-                            Registrarse
+                            <p>Registrarse</p>
                         </Link>
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col>
+                
+                    
                     <button className="primary-button">CONFIRM</button>
-                    </Col>
-                </Row>
+                    
+                
                 </form>
-
+                </Container>
                 
             </div>
             <Footer />
