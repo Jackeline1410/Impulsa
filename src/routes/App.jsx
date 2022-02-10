@@ -10,9 +10,9 @@ import Promotions from '../pages/Promotions';
 import ContactUs from '../pages/ContactUs';
 import NotFound from '../pages/NotFound';
 import Register from '../pages/Register';
-import RegisterCompany from '../pages/RegisterCompany';
-import RegisterCompany2 from '../pages/RegisterCompany2';
-import RegisterCompany3 from '../pages/RegisterCompany3';
+import RegisterCompanyfirst from '../pages/RegisterCompanyfirst';
+import RegisterCompanysecond from '../pages/RegisterCompanysecond';
+import RegisterCompanythird from '../pages/RegisterCompanythird';
 import Category1 from '../pages/Category1';
 import Category2 from '../pages/Category2';
 import Category3 from '../pages/Category3';
@@ -43,9 +43,9 @@ const App = () => {
                 <Route exact path="/contactUs" element={<ContactUs />} />
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/register" element={<Register />} />
-                <Route exact path="/registercompany" element={<RegisterCompany />} />
-                <Route exact path="/registercompany2" element={<RegisterCompany2 />} />
-                <Route exact path="/registercompany3" element={<RegisterCompany3 />} />
+                <Route exact path="/registercompanyfirst" element={<RegisterCompanyfirst />} />
+                <Route exact path="/registercompanysecond" element={<RegisterCompanysecond />} />
+                <Route exact path="/registercompanythird" element={<RegisterCompanythird />} />
                 <Route exact path="/recovery-password" element={<RecoveryPassword />} />
                 <Route exact path="/perfil" element={<Perfil />} />
                 <Route exact path="/category1" element={<Category1 />} />

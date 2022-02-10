@@ -6,6 +6,8 @@
 }
 
 
+
+
 .titleLogin {
       font-size: 45px;
       margin-bottom: 12px;
@@ -23,8 +25,9 @@
 
 .labeluserlogin {
       font-size: 20px;
-      margin-bottom: 4px;
-     
+      margin-bottom: 8px;
+     width: 500px;
+     font-family: "News Cycle",sans-serif;
 }
 
 .input {
@@ -32,9 +35,11 @@
       border: none;
       border-radius: 8px;
       height: 30px;
+      width: 500px;
       font-size: var(--md);
       padding: 6px;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+      font-family: "News Cycle",sans-serif;
 }
 
 .primary-button {

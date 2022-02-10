@@ -13,7 +13,7 @@ const Login = () => {
             
                 <h1 className="titleLogin">Iniciar Sesión</h1>
 
-                <Container>
+                <Container> 
                 <form action="/" className="login-form">
                 <label for="password" className="labeluserlogin">Usuario:</label>
                 <input type="password" id="password" placeholder="Email" className="input" />
@@ -33,12 +33,7 @@ const Login = () => {
                         </Link>
                     </Col>
                 </Row>
-
-                
-                    
-                    <button className="primary-button">CONFIRM</button>
-                    
-                
+                    <button className="primary-button">INGRESAR</button>
                 </form>
                 </Container>
                 

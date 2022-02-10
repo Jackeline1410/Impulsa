@@ -1,18 +1,10 @@
-.mainContainer {
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0px;
-    padding: 10px 0px;
-}
 
 .title {
     display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: #e4312a;
+    color: #cc9600;
     font-family: "Alegreya Sans",sans-serif;
     font-weight: 800;
-    font-size: calc(4rem + .5vw);
+    font-size: 45px;
 }
 
 .paragraph {
@@ -38,6 +30,11 @@
    line-height: 40px;
 }
 
+.selectformuser {
+    width: 510px;
+    height: 40px;
+}
+
 .row {
     margin-bottom: 10px;
 }
@@ -53,15 +50,20 @@
     height: 50px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .primary-button:hover {
-background-color: whitesmoke;
-border-radius: 8px;
-border: none;
-color: purple;
-font-size: var(--md);
-font-weight: bold;
-height: 50px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    color: purple;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
 
+}
+
+.inputlargformuser {
+    width: 1020px;
 }

@@ -1,0 +1,85 @@
+.formcompanysecond {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.textareaformcompanysecond {
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label {
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 40px;
+ }
+
+
+ .iconchargeformcompanysecond {
+     width: 30px;
+     height: 30px;
+     margin-right: 1rem;
+ }
+
+ .iconnoteformcompanysecond {
+    width: 20px;
+    height: 20px;
+ }
+
+ .columnformcompanysecond {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .columnrightformcompanysecond {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ .columnleftformcompanysecond {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ .nameimageformcompanysecond {
+     margin-right: 1.5rem;
+}
+
+.primary-button {
+    background-color: #7a1a66;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 25%;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.primary-button:hover {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    color: purple;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+
+}

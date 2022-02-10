@@ -1,17 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col } from 'react-grid';
+import { Row, Col, Container } from 'react-grid';
+
+import '../styles/FormCompanyfirst.scss';
 
 const FormCompany1 = () => {
     return(
         <div>
-            <form action="/" className="form">
+            <Container>
+            <form action="/" >
                 <Row>
+                    <Col>
                     <label for="nameCompany" className="label">Nombre del emprendimiento/empresa:</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <input type="nameCompany" id="nameCompany" className="input input-nameCompany" />
+                    <Col>
+                    <input type="nameCompany" id="nameCompany" className="input" />
+                    </Col>
                 </Row>
 
 
@@ -26,7 +33,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col md={6}>
-                        <input type="documentBoss" id="documentBoss"  className="input input-documentBoss" />
+                        <input type="documentBoss" id="documentBoss"  className="input" />
                     </Col>
                     <Col md={6}>
                         <input type="numberVerification" id="numberVerification" className="input input-numberVerification" />
@@ -35,113 +42,171 @@ const FormCompany1 = () => {
 
 
                 <Row>
+                    <Col>
                     <label for="registerCamara" className="label">Se encuentra registrado en la Cámara de Comercio:</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="registerCamara">
+                    <Col>
+                    <select 
+                    id="registerCamara"
+                    className="selectformcompany"
+                    >
                         <option value="ti">Seleccionar</option>
                         <option value="ti">SI</option>
                         <option value="cc">NO</option>
-                    </select>    
+                    </select>  
+                    </Col>  
                 </Row>
 
 
                 <Row>
+                    <Col>
                     <label for="categoryCamara" className="label">Categoría a la cual pertenece:</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="categoryCamara"> 
+                    <Col>
+                    <select 
+                    id="categoryCamara"
+                    className="selectformcompany"
+                    > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Persona Natural</option>
                         <option value="cc">Persona Jurídica</option>
                     </select>    
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <label for="timeCompany" className="label">Años de constituido el emprendimiento o empresa:</label>
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <input type="timeCompany" id="timeCompany" className="input input-timeCompany" />
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <label for="sales" className="label">Ha realizado ventas en los dos últimos meses:</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="sales"> 
+                    <Col>
+                    <select 
+                    id="sales"
+                    className="selectformcompany"
+                    > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Si</option>
                         <option value="cc">No</option>
-                    </select>    
+                    </select>
+                    </Col> 
                 </Row>
 
                 <Row>
+                    <Col>
                     <label for="deparment" className="label">Ubicación del lugar de base del emprendimiento/empresa (departamento):</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="deparment"> 
+                    <Col>
+                    <select 
+                    id="deparment"
+                    className="selectformcompany"
+                    > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Santander</option>
                         <option value="cc">Antioquia</option>
                         <option value="cc">Bolivar</option>
-                    </select>    
+                    </select>
+                    </Col>    
                 </Row>
 
                 <Row>
+                    <Col>
                     <label for="municipio" className="label">Ubicación del lugar de base del emprendimiento/empresa (municipio):</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="municipio"> 
+                    <Col>
+                    <select 
+                    id="municipio"
+                    className="selectformcompany"
+                    > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Bucaramanga</option>
                         <option value="cc">Medellin</option>
                         <option value="cc">Cartagena</option>
-                    </select>    
+                    </select>  
+                    </Col> 
                 </Row>
 
                 <Row>
+                    <Col>
                     <label for="addressCompany" className="label">Dirección:</label>
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <input type="addressCompany" id="nameCompany" className="input input-addressCompany" />
+                    </Col>
                 </Row>
 
 
                 <Row>
+                    <Col>
                     <label for="contactCompany" className="label">Teléfono/celular de contacto:</label>
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <input type="contactCompany" id="contactCompany" className="input input-contactCompany" />
+                    </Col>
                 </Row>
 
 
                 <Row>
+                    <Col>
                     <label for="sizeCompany" className="label">Número de empleados:</label>
+                    </Col>
                 </Row>
 
                 <Row>
+                    <Col>
                     <input type="sizeCompany" id="sizeCompany" className="input input-sizeCompany" />
+                    </Col>
                 </Row>
 
 
                 <Row>
+                    <Col>
                     <label for="shipping" className="label">Realiza envíos nacionales:</label>
+                    </Col>
                 </Row>
 
                 <Row>
-                    <select id="shipping"> 
+                    <Col >
+                    <select 
+                    id="shipping"
+                    className="selectformcompany"
+                    > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Si</option>
                         <option value="cc">No</option>
                     </select>    
+                    </Col>
                 </Row>
 
                 <Row>
@@ -159,6 +224,7 @@ const FormCompany1 = () => {
                 </Row>
 
             </form>
+            </Container>
         </div>
     );
 }

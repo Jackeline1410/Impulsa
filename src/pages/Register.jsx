@@ -9,13 +9,17 @@ import '../styles/Register.scss';
 
 const Register = () => {
     return(
-        <Container>
-            <div className="mainContainer">
-            <Header />
-            <FormUser />
+        
+            <div>
+           
+            <Header className="header"/>
+            <Container>
+                <FormUser className="formuserregister" />
+            </Container>
             <Footer />
+
             </div>
-        </Container>
+        
     );
 }
 
