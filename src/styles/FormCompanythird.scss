@@ -1,49 +1,22 @@
 
-.textareaformcompanysecond {
+.textareaformcompanythird {
     width: 1100px;
     align-items: center;
     justify-content: center;
 }
 
-
 .label {
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
     line-height: 40px;
 }
 
-
- .iconchargeformcompanysecond {
-     width: 30px;
-     height: 30px;
-     margin-right: 1rem;
- }
-
- .iconnoteformcompanysecond {
-    width: 20px;
-    height: 20px;
- }
-
- .columnformcompanysecond {
+.columnformcompanysthird {
     display: flex;
     justify-content: space-between;
  }
 
- .columnrightformcompanysecond {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
- }
-
- .columnleftformcompanysecond {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
- }
-
- .nameimageformcompanysecond {
-     margin-right: 1.5rem;
-}
 
 .primary-button {
     background-color: #7a1a66;
@@ -73,8 +46,25 @@
     width: 100%;
 }
 
-.rowbuttons {
+.rowbuttons{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.iconNoteproperties {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.iconCheckproperties {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 10px;
 }

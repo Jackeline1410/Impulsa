@@ -146,21 +146,22 @@ const FormCompanysecond = () => {
                     </Col>
                 </Row>
 
-                
-                   <Link to="/RegisterCompany">
-                                
-                            <button className="primary-button">REGRESAR</button>
-                                
-                        </Link>
+                <Row className="rowbuttons">
+               
                     
-                  
+                        <Link to="/RegisterCompany">   
+                            <button className="primary-button">REGRESAR</button>  
+                        </Link>
+               
+                    <Col md={2}></Col>
                         <Link to="/RegisterCompany3">
                                 
                             <button className="primary-button">SIGUIENTE</button>
                             
-                        </Link>
-                
-
+                       </Link>
+    
+        
+                </Row>
 
             </form>
             </Container>

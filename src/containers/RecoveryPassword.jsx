@@ -16,7 +16,7 @@ const RecoveryPassword = () => {
         <img src={email} alt="email" />
       </div>
 
-      <button className="primary-button login-button">Login</button>
+      <button className="primary-button">Login</button>
 
       <p className="resend">
         <span>Didn't receive the email?</span>

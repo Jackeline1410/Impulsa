@@ -1,73 +1,72 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Row, Col} from 'react-grid';
+import {Row, Col, Container} from 'react-grid';
 
 import iconNote from '../assets/icons/iconNote.svg';
 import iconCheck from '../assets/icons/iconCheck.svg';
 
-const FormCompany3 = () => {
+import '../styles/FormCompanythird.scss';
+
+const FormCompanythird = () => {
     return(
         <div>
-            <form action="/" className="form">
+            <Container>
+                <form action="/" className="formcompanythird">
                     <Row>
                         <label for="youtube" className="label">Youtube (enlace con video descriptivo de su emprendimiento):</label>
                     </Row>
+
                     <Row>
-                        <textarea></textarea>
+                        <textarea className="textareaformcompanythird" size="60"></textarea>
                     </Row>
 
                     <Row>
                         <label for="portfolio" className="label">Portafolio (enlace del drive o plataforma de sus productos):</label>
                     </Row>
+
                     <Row>
-                        <textarea></textarea>
+                        <textarea className="textareaformcompanythird"></textarea>
                     </Row>
 
                     <Row>
-                        <Col md={4}>
+                        <Col md={4} className="columnformcompanysthird">
                             <label for="autorization" className="label">Autorizo el uso de mis datos personales:</label>
-                        </Col>
-                        <Col md={4}>
-                            <img src={iconCheck} alt="iconCheck" />
+                    
+                            <img className="iconCheckproperties" src={iconCheck} alt="iconCheck" />
                         </Col>
                     </Row>
 
                     <Row>
-                        <Col md={4}>
+                        <Col md={4} className="columnformcompanysthird">
                             <label for="politiqueprivate" className="label">He leído y autorizo la politica de privacidad:</label>
                         </Col>
-                        <Col md={4}>
-                            <img src={iconCheck} alt="iconCheck" />
-                        </Col>
-                        <Col md={4}>
-                            <img src={iconNote} alt="iconNote" />
+                        <Col md={4} className="columnformrigthcompanysthird">
+                            <img className="iconCheckproperties" src={iconCheck} alt="iconCheck" />
+                            <img className="iconNoteproperties" src={iconNote} alt="iconNote" />
                         </Col>
                     </Row>
 
-                    <p>Gracias por suministrar los datos y querer hacer parte de la familia de Impulsa UIS, pronto nos comunicaremos con usted por medio del correo electrónico diligenciado para notificarle si sus datos son válidos para ser publicados.</p>
+                    <p className="paragraphformcompanythird">Gracias por suministrar los datos y querer hacer parte de la familia de Impulsa UIS, pronto nos comunicaremos con usted por medio del correo electrónico diligenciado para notificarle si sus datos son válidos para ser publicados.</p>
 
-                    <Row>
-                    <Col>
+                    <Row className="rowbuttons">
+                    
                         <Link to="/RegisterCompany2">
                                 
-                                    <input value="REGRESAR" className="primary-button join-botton"></input>
+                        <button className="primary-button">REGRESAR</button>
                                 
                         </Link>
-                    </Col>
-
-                    <Col>
+                   <Col md={2}></Col>
                         <Link to="/Perfil">
                                 
-                                <input value="GUARDAR" className="primary-button save-button"></input>
+                                <button className="primary-button">GUARDAR</button>
                                 
                         </Link>
-                    </Col>
+                    </Row>
 
-                </Row>
-
-            </form>
+                </form>
+            </Container>
         </div>
     );
 }
 
-export default FormCompany3;
+export default FormCompanythird;
