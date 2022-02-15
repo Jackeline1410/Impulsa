@@ -4,7 +4,9 @@ import Footer from '../components/Footer';
 import {Container, Row, Col} from 'react-grid';
 
 import '../styles/Category1.scss';
-import logoid3co from '../assets/logos/logoid3co.svg'
+import logokevins from '../assets/logos/kevins.jpeg';
+import logothifany from '../assets/logos/thifany.jpeg';
+import logovera from '../assets/logos/vera.jpeg';
 
 const Category1 = () => {
     return(
@@ -16,15 +18,15 @@ const Category1 = () => {
                 <Container className="containercategory1">
                     <Row>
                         <Col md={4} className="columncategory1">
-                        <img className="logoid3coproperties" src={logoid3co} alt="logoid3co" />
+                        <img className="logocategory1properties" src={logokevins} alt="logo kevins" />
                         
                         </Col>
                         <Col md={4} className="columncategory1">
-                        <img className="logoid3coproperties" src={logoid3co} alt="logoid3co" />
+                        <img className="logocategory1properties" src={logovera} alt="logo vera" />
                        
                         </Col>
                         <Col md={4} className="columncategory1">
-                        <img className="logoid3coproperties" src={logoid3co} alt="logoid3co" />
+                        <img className="logocategory1properties" src={logothifany} alt="logo thifany" />
                        
                         </Col>
 
@@ -33,15 +35,15 @@ const Category1 = () => {
                         
                     <Row>
                         <Col md={4} className="columncategory1">
-                        <p className="paragraphCategory1entrepreneur1">id3co</p>
+                        <p className="paragraphCategory1entrepreneur1">KEVIN'S</p>
                         </Col>
 
                         <Col md={4} className="columncategory1">
-                        <p className="paragraphCategory1entrepreneur1">id3co</p>
+                        <p className="paragraphCategory1entrepreneur1">VERA</p>
                         </Col>
 
                         <Col md={4} className="columncategory1">
-                        <p className="paragraphCategory1entrepreneur1">id3co</p>
+                        <p className="paragraphCategory1entrepreneur1">THIFANY</p>
                         </Col>
 
                     </Row>
