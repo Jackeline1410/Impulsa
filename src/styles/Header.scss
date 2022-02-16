@@ -17,6 +17,7 @@
 .navbar-left {
   display: flex;
   text-align: center;
+  margin-left: 30px;
 }
 
 .nav-logoimpulsaUIS {
@@ -52,12 +53,12 @@
 }
 
 .navbar-right {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 15px;
   margin-top: 15px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .buttonlogin {
@@ -90,19 +91,23 @@
 }
 
 .formquiclysearch:hover {
-  display: inline-block;
+  display: flex;
 }
 
 .inputquiclysearch {
   display: inline-block;
   height: 50px;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  visibility: hidden;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  visibility: visible;
 }
 
 .inputquiclysearch:hover {
-  display: none;
+  display: inline-block;
+  height: 50px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  visibility: visible;
 }
 
 
@@ -128,9 +133,12 @@
   width: 50px;
   height: 50px;
   background: url('../assets/icons/close-button.svg') no-repeat center;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .buttonclosedquiclysearch:hover {
   background: url('../assets/icons/close-button-hover.svg') no-repeat center;
+  width: 50px;
+  height: 50px;
+  visibility: visible;
 }
