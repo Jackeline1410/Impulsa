@@ -17,7 +17,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col>
-                    <input type="nameCompany" id="nameCompany" className="input" />
+                    <input type="nameCompany" id="nameCompany" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -33,10 +33,10 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col md={6}>
-                        <input type="documentBoss" id="documentBoss"  className="input" />
+                        <input type="documentBoss" id="documentBoss"  className="inputlargformuser" />
                     </Col>
                     <Col md={6}>
-                        <input type="numberVerification" id="numberVerification" className="input input-numberVerification" />
+                        <input type="numberVerification" id="numberVerification" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -51,7 +51,7 @@ const FormCompany1 = () => {
                     <Col>
                     <select 
                     id="registerCamara"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     >
                         <option value="ti">Seleccionar</option>
                         <option value="ti">SI</option>
@@ -71,7 +71,7 @@ const FormCompany1 = () => {
                     <Col>
                     <select 
                     id="categoryCamara"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Persona Natural</option>
@@ -88,7 +88,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col>
-                    <input type="timeCompany" id="timeCompany" className="input input-timeCompany" />
+                    <input type="timeCompany" id="timeCompany" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -102,7 +102,7 @@ const FormCompany1 = () => {
                     <Col>
                     <select 
                     id="sales"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Si</option>
@@ -121,7 +121,7 @@ const FormCompany1 = () => {
                     <Col>
                     <select 
                     id="deparment"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Santander</option>
@@ -141,7 +141,7 @@ const FormCompany1 = () => {
                     <Col>
                     <select 
                     id="municipio"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Bucaramanga</option>
@@ -159,7 +159,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col>
-                    <input type="addressCompany" id="nameCompany" className="input input-addressCompany" />
+                    <input type="addressCompany" id="nameCompany" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -172,7 +172,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col>
-                    <input type="contactCompany" id="contactCompany" className="input input-contactCompany" />
+                    <input type="contactCompany" id="contactCompany" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -185,7 +185,7 @@ const FormCompany1 = () => {
 
                 <Row>
                     <Col>
-                    <input type="sizeCompany" id="sizeCompany" className="input input-sizeCompany" />
+                    <input type="sizeCompany" id="sizeCompany" className="inputlargformuser" />
                     </Col>
                 </Row>
 
@@ -200,7 +200,7 @@ const FormCompany1 = () => {
                     <Col >
                     <select 
                     id="shipping"
-                    className="selectformcompany"
+                    className="inputlargformuser"
                     > 
                         <option value="ti">Seleccionar</option>
                         <option value="ti">Si</option>

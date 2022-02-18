@@ -45,9 +45,6 @@
     font-family: "News Cycle",sans-serif;
 }
 
-.containerbutton {
-   justify-content: flex-start;
-}
 
 .iconyoutube {
     width: 50px;
@@ -55,6 +52,7 @@
 }
 
 .primary-button {
+    width: 25%;
     justify-content: flex-start;
     background-color: #7a1a66;
     border-radius: 8px;

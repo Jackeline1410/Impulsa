@@ -23,10 +23,10 @@ const FormUser = () => {
 
                 <Row>
                     <Col md={6}>
-                        <input id="names" placeholder="Nombres" className="input" size="65"/>
+                        <input id="names" placeholder="Nombres" className="inputlargformuser" size="65"/>
                     </Col>
                     <Col md={6}>
-                        <input type="lastnames" id="lastnames" placeholder="Apellidos" className="input" size="65" />
+                        <input type="lastnames" id="lastnames" placeholder="Apellidos" className="inputlargformuser" size="65" />
                     </Col>
                 </Row>
 
@@ -45,7 +45,7 @@ const FormUser = () => {
                     <Col md={6}>
                     <select 
                     id="typeDocument"
-                    className="selectformuser"
+                    className="inputselectformuser"
                     > 
                         <option value="ti">Seleccione una opción</option>
                         <option value="ti">TI</option>
@@ -55,19 +55,21 @@ const FormUser = () => {
                     </select>                        
                     </Col>
                     <Col md={6}>
-                        <input type="numberDocument" id="numberDocument" placeholder="Número de documento" className="input" size="65"/>
+                        <input type="numberDocument" id="numberDocument" placeholder="Número de documento" className="inputlargformuser" size="65"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col >
+                    <label for="contactPhone" className="label">Teléfono de contacto:</label>
                     </Col>
                 </Row>
 
                 <Row>
                     <Col>
-                    <label for="contactPhone" className="label">Teléfono de contacto:</label>
+                    <input type="contactPhone" id="contactPhone" placeholder="Teléfono de contacto" className="inputlargformuser" />
                     </Col>
                 </Row>
-
-               
-                    <input type="contactPhone" id="contactPhone" placeholder="Teléfono de contacto" className="input" />
-                
 
                 <Row>
                     <Col>
@@ -80,7 +82,7 @@ const FormUser = () => {
                     <select 
                     id="relationUniversity" 
                     placeholder="seleccione una opción"
-                    className="selectformuser"
+                    className="inputselectformuser"
                     > 
                         <option value="ti">Estudiante Pregrado</option>
                         <option value="ti">Estudiante Posgrado</option>
@@ -105,7 +107,7 @@ const FormUser = () => {
                     <select 
                     id="relationUniversity" 
                     placeholder="seleccione una opción"
-                    className="selectformuser"
+                    className="inputselectformuser"
                     > 
                         <option value="ti">Seleccione un programa de pregrado</option>
                         <option value="cc">ZOOTECNIA</option>
@@ -174,7 +176,7 @@ const FormUser = () => {
                 <select 
                     id="relationUniversity" 
                     placeholder="seleccione una opción"
-                    className="selectformuser"
+                    className="inputselectformuser"
                     > 
                         <option value="ti">Seleccione un programa de pregrado</option>
                         <option value="cc">ESP EN DOCENCIA UNIVERSITARIA</option>
@@ -281,18 +283,18 @@ const FormUser = () => {
 
                 <Row>
                     <Col md={6}>
-                        <input type="email" id="email" placeholder="Email" className="input input-email" size="65"/>
+                        <input type="email" id="email" placeholder="Email" className="inputlargformuser" size="65"/>
                     </Col>
                     <Col md={6}>
-                        <input type="password" id="password" placeholder="Contraseña" className="input input-password" size="65" />
+                        <input type="password" id="password" placeholder="Contraseña" className="inputlargformuser" size="65" />
                     </Col>
                 </Row>
                     
-                
+                <Col md={12} className="columnbutton">
                     <Link to="/login">
                         <button className="primary-button">REGISTRARME</button>
                     </Link>
-              
+                </Col>
 
             </form>
                     

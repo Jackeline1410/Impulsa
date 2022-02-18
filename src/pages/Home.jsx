@@ -48,7 +48,7 @@ const Home = () => {
                         </Col>
                     </Row>
 
-                    <div className="containerbutton">
+                    <div >
                         <Link to="/register">
                             <button  className="primary-button" >UNIRME</button>  
                         </Link>
@@ -85,7 +85,7 @@ const Home = () => {
                             </div>
                         </div>
                     </Row>
-                        <div className="rowbuttonentrepreneur">
+                        <div >
                         <Link to="/emprendimiento">
                             <button className="primary-button">CONOCE MAS</button>
                         </Link>
